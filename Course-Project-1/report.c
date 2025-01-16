@@ -77,7 +77,6 @@ int main(int argc, char *argv[]) {
             char s[20];
             scan = fscanf(fin, "%[^\n]", s);
             err_counter[temp.month]++;
-            continue;
         } else {
             if (size == len) {
                 len *= 2;
